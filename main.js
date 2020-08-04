@@ -1,3 +1,21 @@
+$(".block1").html("更新");
+
+$(".block2").css("background-color","#eee");
+$(".block2").css("border-radius","100%");
+
+$(".block3").addClass("bigblock");
+$(".block4").removeClass("bigblock");
+
+$(".block5").html("<div class='block'>商品1</div><div class='block'>商品2</div>");
+$(".block5").prepend("商品清單");
+$(".block5").append("總共有2個");
+
+$(".block6").text("<div>123</div>")
+
+
+
+
+
 $(".buybtn").click(function(){
         $(".buybtn").text("完成購買")
         $(".buybtn").addClass("buyed");
