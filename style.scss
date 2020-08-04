@@ -1,6 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 微軟正黑體;
+}
+
+body {
+    padding: 20px;
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        margin: 10px auto;
+    }
+
+    .buybtn {
+        border: 3px solid #252525;
+        display: inline-block;
+        padding: 10px 25px;
+        cursor: pointer;
+        letter-spacing: 2px;
+        transition: 0.5s;
+    }
+    .buybtn:hover{
+        background-color: #333;
+        color: #fff;
+    }
+    .buyed{
+        background-color: #f24;
+        color: #fff;
+    }
+    .buyed:hover {
+        background-color: #f24;
+        color: #fff;
+      }
 }

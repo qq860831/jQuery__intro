@@ -6,4 +6,42 @@
           box-sizing: border-box;
   font-family: 微軟正黑體;
 }
+
+body {
+  padding: 20px;
+}
+
+body hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body h3 {
+  margin: 10px auto;
+}
+
+body .buybtn {
+  border: 3px solid #252525;
+  display: inline-block;
+  padding: 10px 25px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .buybtn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+body .buyed {
+  background-color: #f24;
+  color: #fff;
+}
+
+body .buyed:hover {
+  background-color: #f24;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
