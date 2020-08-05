@@ -62,3 +62,55 @@ setInterval(function(){
     $(".countbox").text("經過了:"+sec+"秒");
     sec=sec+1;
 },1000);
+
+var num = 12;
+
+$(".minus").click(
+    function(){
+        num=num-1;
+        $(".num").text(num);
+        check();
+    }
+);
+
+$(".add").click(
+    function(){
+        num=num+1;
+        $(".num").text(num);
+        check();
+    }
+);
+
+check();
+$(".num").text(num);
+
+function check(){
+    if(num<10){
+        $(".text").text("數量少!!");
+        $(".text").css("color","#FF6505");
+        $(".text").css("border-bottom","solid 8px #FF6505");
+
+        $(".fill_stock_open").addClass("fill_stock_open");
+        else if(num<20){
+        $(".text").text("賣的不錯~~");
+        $(".text").css("color","#FFCD05");
+        $(".text").css("border-bottom","solid 8px #FFCD05");
+        }
+        $(".fill_stock").removeClass("fill_stock_open");
+        else if (num<30){
+        $(".text").text("還剩很多!!");
+        $(".text").css("color","#333");
+        $(".text").css("border-bottom","solid 8px #333");
+        }  
+    }
+}    
+
+nowtime= 0;
+$(".fill_stock").click(function () {
+    $(".fill_stock").text("☎");
+    setInterval(function(){
+        nowtime=nowtime+1;
+        $(".fill_stock").text("☎ 撥打電話中..."+nowtime);
+
+    },1000);
+});

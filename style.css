@@ -71,4 +71,66 @@ body .cancel:hover {
   background-color: #666;
   color: #fff;
 }
+
+body .count {
+  border: solid 2px #333;
+  color: #333;
+  padding-top: 10px;
+}
+
+body .minus, body .num, body .add, body .count {
+  display: inline-block;
+  font-size: 24px;
+}
+
+body .minus, body .num, body .add {
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+body .minus, body .add {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .minus:hover, body .add:hover {
+  background-color: #eee;
+  color: #333;
+}
+
+body .num {
+  width: 50px;
+  text-align: center;
+}
+
+body .text {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FFCD05;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+body .fill_stock {
+  font-size: 13px;
+  height: 0px;
+  overflow: hidden;
+  text-align: center;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  padding-top: 0px;
+  cursor: pointer;
+}
+
+body .fill_stock_open {
+  padding-top: 10px;
+  height: 30px;
+}
 /*# sourceMappingURL=style.css.map */
