@@ -9,6 +9,7 @@
 
 body {
   padding: 20px;
+  height: 5000px;
 }
 
 body .block {
@@ -104,15 +105,16 @@ body .minus:hover, body .add:hover {
 }
 
 body .num {
-  width: 50px;
+  width: 80px;
   text-align: center;
 }
 
 body .text {
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-bottom: solid 3px black;
   color: #FFCD05;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
